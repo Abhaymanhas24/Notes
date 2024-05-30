@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- elements / tags -->
+<html lang="en">
+  <head>
+    <!-- attributes -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* element selector*/
+      /* .chess {
+            height: 100px;
+            width: 100%;
+            background-color: orange;
+            object-fit: contain;
+        } */
+
+      h2 {
+        color: crimson;
+      }
+
+      /* Class selector */
+      .fun {
+        color: orange;
+      }
+
+      .banner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .container {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img
+        class="banner"
+        src="https://www.adorama.com/alc/wp-content/uploads/2018/11/landscape-photography-tips-yosemite-valley-feature.jpg"
+        alt=""
+      />
+    </div>
+    <h1 class="fun">Hello world</h1>
+    <h2>Hello world</h2>
+    <h3 class="fun">Hello world</h3>
+    <h4>Hello world</h4>
+    <script>
+      var student = {
+        name: "xyz",
+        age: 20,
+        company: "Proclink",
+      };
+      console.log(student.name);
+      console.log(student["age"]);
+      var t = null;
+      console.log(typeof t);
+      const marks = [80, 70, 60];
+      marks[1] = 70;
+      console.log(marks);
+
+      const t1 = [10, 20];
+      const t2 = t1;
+      t1.push(30);
+      t2.push(40);
+
+      console.log(t1);
+      console.log(t2);
+    </script>
+  </body>
+</html>
+
+<!-- shortcuts
+1. win + . - emojs
+2. ctrl + / - comment -->
