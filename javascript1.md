@@ -60,3 +60,24 @@ console.log(x1 - x2);
 1. Normal function
 2. Arrow function
 3.
+
+## Copy by Value
+
+- ... spread operator
+  ```js
+  var t1 = [400, 500];
+  var t2 = [90, 80];
+  var t3 = [...t2, ...t1];
+  console.log(t3);
+  ```
+
+## Different types of Loops
+
+- normal for loop more control like the basic using i and writing the i++
+- in for loop readable in means index used to show index of array
+
+```js
+for (let idx in marks) {
+  console.log("Index: ", idx, "Marks", marks[idx]);
+}
+```
