@@ -48,6 +48,28 @@
     <h2>Hello world</h2>
     <h3 class="fun">Hello world</h3>
     <h4>Hello world</h4>
+    <script>
+      var student = {
+        name: "xyz",
+        age: 20,
+        company: "Proclink",
+      };
+      console.log(student.name);
+      console.log(student["age"]);
+      var t = null;
+      console.log(typeof t);
+      const marks = [80, 70, 60];
+      marks[1] = 70;
+      console.log(marks);
+
+      const t1 = [10, 20];
+      const t2 = t1;
+      t1.push(30);
+      t2.push(40);
+
+      console.log(t1);
+      console.log(t2);
+    </script>
   </body>
 </html>
 

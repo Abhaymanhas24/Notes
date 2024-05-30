@@ -14,6 +14,7 @@ The war is betwwen Netscape & IE
 
 - [Use to compress images SQUOOSH](https://squoosh.app/)
 - [Figma used to make SVG](https://www.figma.com/)
+- [visiual tool for learning](https://pythontutor.com/)
 
 ## important Points
 
@@ -21,5 +22,3 @@ The war is betwwen Netscape & IE
 - Figma
 
 ## code
-
-'''
