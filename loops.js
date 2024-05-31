@@ -1,4 +1,4 @@
-const marks = [80, 90, 100];
+// const marks = [80, 90, 100];
 
 // //More Control
 // for (let i = 0; i < marks.length; i++) {
@@ -78,8 +78,37 @@ const movies = [
   { title: "The Dark Knight", ratings: [5, 5, 5, 5, 5] },
   { title: "Memento", ratings: [4, 5, 4, 5, 4] },
 ];
-
-// Expected Output:  The Dark Knight
-for (i of movies) {
-  var rating = i.rating;
+let highestAverageRating = 0;
+let highestRatedMovie = "";
+for (let movie of movies) {
+  let totalRating = 0;
+  for (let rating of movie.ratings) {
+    totalRating += rating;
+  }
+  if (totalRating > highestAverageRating) {
+    highestAverageRating = totalRating;
+    highestRatedMovie = movie.title;
+  }
 }
+console.log(highestRatedMovie);
+
+// const movies = [
+//   { title: "Inception", ratings: [5, 4, 5, 4, 5] },
+//   { title: "Interstellar", ratings: [5, 5, 4, 5, 4] },
+//   { title: "Dunkirk", ratings: [4, 4, 4, 3, 4] },
+//   { title: "The Dark Knight", ratings: [5, 5, 5, 5, 5] },
+//   { title: "Memento", ratings: [4, 5, 4, 5, 4] },
+// ];
+// let highestTotalRating = 0;
+// let highestRatedMovie = "";
+// for (let movie of movies) {
+//   let totalRating = 0;
+//   for (let rating of movie.ratings) {
+//     totalRating += rating;
+//   }
+//   if (totalRating > highestTotalRating) {
+//     highestTotalRating = totalRating;
+//     highestRatedMovie = movie.title;
+//   }
+// }
+// console.log(highestRatedMovie);
