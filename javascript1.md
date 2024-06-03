@@ -59,7 +59,8 @@ console.log(x1 - x2);
 
 1. Normal function
 2. Arrow function
-3.
+3. Anonoymous function
+4. IIFE
 
 ## Copy by Value
 

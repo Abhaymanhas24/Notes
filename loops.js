@@ -15,22 +15,22 @@
 //   console.log("Marks: ", mark);
 // }
 // Ques 1
-// const cart = [
-//   { name: "Apple", price: 0.5, quantity: 4 },
-//   { name: "Banana", price: 0.25, quantity: 6 },
-// ];
+const cart = [
+  { name: "Apple", price: 0.5, quantity: 4 },
+  { name: "Banana", price: 0.25, quantity: 6 },
+];
 
-// const newItems = [
-//   { name: "Cherry", price: 0.75, quantity: 5 },
-//   { name: "Date", price: 1, quantity: 3 },
-// ];
-// var total = 0;
-// var items = [...cart, ...newItems];
+const newItems = [
+  { name: "Cherry", price: 0.75, quantity: 5 },
+  { name: "Date", price: 1, quantity: 3 },
+];
+var total = 0;
+var items = [...cart, ...newItems];
 
-// for (item of items) {
-//   total += item.price * item.quantity;
-// }
-// console.log("The cart Total is: ", total);
+for (item of items) {
+  total += item.price * item.quantity;
+}
+console.log("The cart Total is: ", total);
 
 // //QUES2
 
@@ -71,26 +71,26 @@
 // console.log(id);
 // Ex4: Top 2 movie titles
 
-const movies = [
-  { title: "Inception", ratings: [5, 4, 5, 4, 5] },
-  { title: "Interstellar", ratings: [5, 5, 4, 5, 4] },
-  { title: "Dunkirk", ratings: [4, 4, 4, 3, 4] },
-  { title: "The Dark Knight", ratings: [5, 5, 5, 5, 5] },
-  { title: "Memento", ratings: [4, 5, 4, 5, 4] },
-];
-let highestAverageRating = 0;
-let highestRatedMovie = "";
-for (let movie of movies) {
-  let totalRating = 0;
-  for (let rating of movie.ratings) {
-    totalRating += rating;
-  }
-  if (totalRating > highestAverageRating) {
-    highestAverageRating = totalRating;
-    highestRatedMovie = movie.title;
-  }
-}
-console.log(highestRatedMovie);
+// const movies = [
+//   { title: "Inception", ratings: [5, 4, 5, 4, 5] },
+//   { title: "Interstellar", ratings: [5, 5, 4, 5, 4] },
+//   { title: "Dunkirk", ratings: [4, 4, 4, 3, 4] },
+//   { title: "The Dark Knight", ratings: [5, 5, 5, 5, 5] },
+//   { title: "Memento", ratings: [4, 5, 4, 5, 4] },
+// ];
+// let highestAverageRating = 0;
+// let highestRatedMovie = "";
+// for (let movie of movies) {
+//   let totalRating = 0;
+//   for (let rating of movie.ratings) {
+//     totalRating += rating;
+//   }
+//   if (totalRating > highestAverageRating) {
+//     highestAverageRating = totalRating;
+//     highestRatedMovie = movie.title;
+//   }
+// }
+// console.log(highestRatedMovie);
 
 // const movies = [
 //   { title: "Inception", ratings: [5, 4, 5, 4, 5] },
