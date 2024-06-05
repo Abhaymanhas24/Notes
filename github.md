@@ -72,3 +72,8 @@
 - Git staging area is needed because we can commit a single file 'A' once but also we can commit file 'A' with a group of files again.
 
 ![alt text](https://i.imgur.com/9kNzm84.png)
+
+- git branch -a
+
+- branch ahead or behind
+  ![alt text](https://i.imgur.com/QetsUaX.png)
