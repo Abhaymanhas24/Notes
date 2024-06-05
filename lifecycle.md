@@ -3,7 +3,7 @@
 - Planning - idea determination
 - Analysis - technical & business analysis
 - Design - ex:figma,adobe xd if anyrthing happens we can easily change in the stage itself  
-  Figma - auto layout & variance
+    Figma - auto layout & variance
 - Implementation
 - Testing & Integration
 - Maintenance - support team like raising a ticket to solve the problem
@@ -43,7 +43,8 @@ Difference is that is when the requirement are clear than we use waterfall model
 
 - It takes 1 hour for sprint planning
 - after the sprint meeting all will get work assigned for 14 days
-- Standup calls
+- they will provide story point to scrum master
+- Standup calls they will give updates it will be 10 to 15 min and tell if there is any blockers or not
 - blockers
 - retrospective meeting - area of improvement where we can improve
 
@@ -55,7 +56,7 @@ Difference is that is when the requirement are clear than we use waterfall model
 
   ![alt text](https://i.imgur.com/dJVqvkD.png)
 
-- Spill over
-  -
+- ## Spill over
   - it is addition of story points of previous sprint to the next sprint  
     ![spill over](https://i.imgur.com/bqUiXr4.png)
+    

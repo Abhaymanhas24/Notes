@@ -7,6 +7,7 @@
 - undefined
 
 ## Types of declaration
+![alt text](https://i.imgur.com/QT1zwFi.png)
 
 - var(reasignment, redeclaration)
 
